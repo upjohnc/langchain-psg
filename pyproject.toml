@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "langchain-psg"
+version = "0.1.0"
+description = ""
+authors = ["Chad Upjohn <chad.upjohn@pinnsg.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "0.2.6"
+langchain-community = "0.2.5"
+beautifulsoup4 = "4.12.3"
+faiss-cpu = "1.8.0.post1"
+langchainhub = "0.1.20"
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "*"
+pytest = "^8.2.2"
+black = "24.4.2"
+isort = "5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

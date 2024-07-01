@@ -48,12 +48,17 @@ def main():
     docs = get_docs(chunk_size)
     vector_store = create_vector_store(docs)
     chain = create_chain(vector_store)
-    response = chain.invoke(dict(input="Summarize what deltalake is"))
+
+    response = chain.invoke(
+        dict(input="Summarize what deltalake is")
+    )  # note: deltalake is the name of the package
+
     print("Here is your answer:")
     print(response["answer"])
 
     with open("response_capture", "w") as f:
         f.write(str(response))
+
     return response
 
 

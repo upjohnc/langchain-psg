@@ -1,0 +1,9 @@
+Delta Lake is an open-source storage layer that provides a scalable and reliable way to store and manage large-scale datasets. It builds on top of Apache Hadoop's HDFS (Hadoop Distributed File System) and allows you to treat your data as if it were a relational database, while still being able to take advantage of the scalability and fault-tolerance of HDFS.
+
+Delta Lake provides features such as:
+
+* Versioning: allows for multiple versions of a table to be stored, making it easier to track changes and maintain a history of updates.
+* Transactions: enables atomic operations on data, ensuring that either all or none of the operations are committed.
+* Schema enforcement: checks the schema of incoming data against the expected schema, preventing errors due to incorrect data types or missing columns.
+
+By using Delta Lake, you can simplify your data processing workflows, improve data quality, and increase your team's productivity.

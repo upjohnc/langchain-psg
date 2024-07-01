@@ -1,0 +1,5 @@
+I'm happy to help!
+
+Deltalake is a library that allows you to read and write Delta Lake tables directly from your Python or Rust code, without requiring Spark. It provides a simple and efficient way to interact with Delta Lake data on your local machine.
+
+With deltalake, you can use popular libraries like pandas to query and manipulate Delta Lake tables, without having to launch a Spark cluster or deal with the complexities of distributed computing. This makes it easy for developers of all levels to work with Delta Lake data in their favorite programming language!

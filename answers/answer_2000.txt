@@ -1,0 +1,1 @@
+The "deltalake" package is a native Rust/Python implementation of Delta Lake, which allows users to read, write, and manage Delta Lake tables without relying on Spark or JVM dependencies. It uses Apache Arrow under the hood, making it compatible with other Arrow-native or integrated libraries such as pandas, DuckDB, and Polars.

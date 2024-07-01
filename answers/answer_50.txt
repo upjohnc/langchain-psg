@@ -1,0 +1,9 @@
+Deltalake!
+
+Delta Lake is an open-source storage layer that simplifies the process of working with big data by providing a reliable and fault-tolerant way to store and manage data in Apache Parquet format. It's designed to work seamlessly with popular data processing frameworks like Apache Spark, making it an ideal choice for large-scale data analytics and machine learning workloads.
+
+In essence, Deltalake is a layer that sits on top of existing storage systems (like HDFS, S3, or Azure Blob Storage) and provides a set of APIs to create, read, and manage structured and semi-structured data. This allows developers to focus on their application logic rather than worrying about the underlying storage and file system complexities.
+
+By integrating with Spark, Deltalake enables users to write data to disk in a way that's optimized for performance and reliability, which is especially important when working with large datasets. Additionally, Deltalake's support for ACID transactions and versioning ensures that your data remains consistent and up-to-date, even in the face of concurrent writes or failures.
+
+The Delta Lake community welcomes contributors from various backgrounds, including those familiar with Arrow-native or integrated libraries like Spark. If you're interested in exploring Deltalake further, I encourage you to join their community and start contributing!

@@ -2,7 +2,7 @@ default:
     just --list
 
 install:
-    poetry install --no-root
+    poetry install --sync --no-root --with dev
 
 pre-commit:
     pre-commit install

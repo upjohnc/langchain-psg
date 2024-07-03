@@ -25,7 +25,7 @@ response from the llm.
 
 The steps start with docs being pulled from a webpage.
 The docs are then split into chunks for embedding creation.  The embeddings are created by the llm.
-They are a vector of integers based on the words in the docs.  The reason for chunking is
+They are a vector of floats based on the words in the docs.  The reason for chunking is
 to keep the size down for llm embedding processing.  Additional to chunk size is the overlap.
 The overlap is to help with not splitting context of documents.
 
@@ -82,3 +82,8 @@ There is an `answers` directory which is a collection of the answers given when 
 The number appendended to the filename is the chunksize.
 
 Of interest is how the answer changes based on the chunk size.
+
+## Video Series on Langchain
+
+There is a good video series that got me started which is on youtube.
+[youtube - playlist](https://youtube.com/playlist?list=PL4HikwTaYE0GEs7lvlYJQcvKhq0QZGRVn&si=GVyed0Oq6WWdQC9C)
